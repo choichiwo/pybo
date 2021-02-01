@@ -20,3 +20,12 @@ def index(request):
     return render(request, 'pybo/question_list.html', context)
     # ---------------------------------------------------------------------------- #
     return HttpResponse("안녕하세요 pybo에 오신것을 환영합니다.")
+# ---------------------------------- [edit] ---------------------------------- #
+def detail(request, question_id):
+    """
+    pybo 내용 출력
+    """
+    question = Question.objects.get(id=question_id)
+    context = {'question': question}
+    return render(request, 'pybo/question_detail.html', context)
+# ---------------------------------------------------------------------------- #
