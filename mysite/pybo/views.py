@@ -3,7 +3,7 @@ from django.shortcuts import render
 # Create your views here.
 from django.http import HttpResponse
 # ---------------------------------- [edit] ---------------------------------- #
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 # ---------------------------------------------------------------------------- #
 # ---------------------------------- [edit] ---------------------------------- #
 from .models import Question
