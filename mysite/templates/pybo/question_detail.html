@@ -11,6 +11,7 @@
     <ul>
     {% for answer in question.answer_set.all %}
         <li>{{ answer.content }}</li>
+    {% endfor %}
 <!-- ------------------------------- [edit] -------------------------------- -->
 <form action="{% url 'pybo:answer_create' question.id %}" method="post">
 {% csrf_token %}
