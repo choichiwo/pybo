@@ -124,3 +124,4 @@ STATIC_URL = '/static/'
 # ---------------------------------- [edit] ---------------------------------- #
 STATICFILES_DIRS = [
     BASE_DIR / 'static',
+]
