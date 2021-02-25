@@ -40,6 +40,7 @@
     <form action="{% url 'pybo:answer_create' question.id %}" method="post" class="my-3">
         {% csrf_token %}
         <div class="form-group">
+            <textarea name="content" id="content" class="form-control" rows="10"></textarea>
 
 <h5>{{ question.answer_set.count }}개의 답변이 있습니다.</h5>
 <div>
