@@ -9,6 +9,7 @@ from django.shortcuts import render, get_object_or_404, redirect
 from .models import Question
 from django.utils import timezone
 # ---------------------------------------------------------------------------- #
+# ---------------------------------- [edit] ---------------------------------- #
 def index(request):
     # ---------------------------------- [edit] ---------------------------------- #
     """
