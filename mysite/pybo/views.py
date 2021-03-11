@@ -45,3 +45,4 @@ def answer_create(request, question_id):
 # ---------------------------------- [edit] ---------------------------------- #
     return redirect('pybo:detail', question_id=question.id)
 # ---------------------------------------------------------------------------- #
+def question_create(request):
