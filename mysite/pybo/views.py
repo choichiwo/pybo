@@ -47,3 +47,5 @@ def answer_create(request, question_id):
 # ---------------------------------------------------------------------------- #
 def question_create(request):
     """
+    pybo 질문등록
+    """
