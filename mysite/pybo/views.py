@@ -49,3 +49,6 @@ def question_create(request):
     """
     pybo 질문등록
     """
+    form = QuestionForm()
+    return render(request, 'pybo/question_form.html', {'form': form})
+# ---------------------------------------------------------------------------- #
