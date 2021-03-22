@@ -55,3 +55,4 @@ def question_create(request):
     if request.method == 'POST':
         form = QuestionForm(request.POST)
         if form.is_valid():
+            question = form.save(commit=False)
