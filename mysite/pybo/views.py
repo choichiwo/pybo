@@ -53,3 +53,4 @@ def question_create(request):
     return render(request, 'pybo/question_form.html', {'form': form})
 # ---------------------------------------------------------------------------- #
     if request.method == 'POST':
+        form = QuestionForm(request.POST)
