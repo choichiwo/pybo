@@ -57,3 +57,4 @@ def question_create(request):
         if form.is_valid():
             question = form.save(commit=False)
             question.create_date = timezone.now()
+            question.save()
