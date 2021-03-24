@@ -60,3 +60,4 @@ def question_create(request):
             question.save()
             return redirect('pybo:index')
     else:
+        form = QuestionForm()
