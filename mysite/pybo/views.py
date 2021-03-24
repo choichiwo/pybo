@@ -59,3 +59,4 @@ def question_create(request):
             question.create_date = timezone.now()
             question.save()
             return redirect('pybo:index')
+    else:
