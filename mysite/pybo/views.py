@@ -61,3 +61,4 @@ def question_create(request):
             return redirect('pybo:index')
     else:
         form = QuestionForm()
+        context = {'form': form}
