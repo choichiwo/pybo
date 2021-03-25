@@ -6,3 +6,4 @@ class QuestionForm(forms.ModelForm):
         model = Question
         fields = ['subject', 'content']
 # ---------------------------------------------------------------------------- #
+        widgets = {
