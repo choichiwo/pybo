@@ -8,3 +8,4 @@ class QuestionForm(forms.ModelForm):
 # ---------------------------------------------------------------------------- #
         widgets = {
             'subject': forms.TextInput(attrs={'class': 'form-control'}),
+            'content': forms.Textarea(attrs={'class': 'form-control', 'rows': 10}),
