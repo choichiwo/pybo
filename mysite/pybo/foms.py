@@ -7,3 +7,4 @@ class QuestionForm(forms.ModelForm):
         fields = ['subject', 'content']
 # ---------------------------------------------------------------------------- #
         widgets = {
+            'subject': forms.TextInput(attrs={'class': 'form-control'}),
