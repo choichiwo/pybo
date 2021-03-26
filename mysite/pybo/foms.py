@@ -11,3 +11,4 @@ class QuestionForm(forms.ModelForm):
             'content': forms.Textarea(attrs={'class': 'form-control', 'rows': 10}),
         }
 # ---------------------------------------------------------------------------- #
+        labels = {
