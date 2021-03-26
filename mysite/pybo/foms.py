@@ -10,3 +10,4 @@ class QuestionForm(forms.ModelForm):
             'subject': forms.TextInput(attrs={'class': 'form-control'}),
             'content': forms.Textarea(attrs={'class': 'form-control', 'rows': 10}),
         }
+# ---------------------------------------------------------------------------- #
