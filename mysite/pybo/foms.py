@@ -13,3 +13,4 @@ class QuestionForm(forms.ModelForm):
 # ---------------------------------------------------------------------------- #
         labels = {
             'subject': '제목',
+            'content': '내용',
