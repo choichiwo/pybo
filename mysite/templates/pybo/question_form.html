@@ -8,6 +8,7 @@
         {% csrf_token %}
 <!-- ------------------------------- [edit] -------------------------------- -->
         <!-- 오류표시 Start -->
+        {% if form.errors %}
         {{ form.as_p }}
         <button type="submit" class="btn btn-primary">저장하기</button>
     </form>
