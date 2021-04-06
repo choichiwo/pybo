@@ -9,6 +9,7 @@
 <!-- ------------------------------- [edit] -------------------------------- -->
         <!-- 오류표시 Start -->
         {% if form.errors %}
+            <div class="alert alert-danger" role="alert">
         {{ form.as_p }}
         <button type="submit" class="btn btn-primary">저장하기</button>
     </form>
