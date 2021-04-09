@@ -12,6 +12,7 @@
             <div class="alert alert-danger" role="alert">
             {% for field in form %}
                 {% if field.errors %}
+                <strong>{{ field.label }}</strong>
         {{ form.as_p }}
         <button type="submit" class="btn btn-primary">저장하기</button>
     </form>
