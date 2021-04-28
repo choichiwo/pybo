@@ -1,5 +1,4 @@
 from django import forms
-from pybo.models import Question
 # ---------------------------------- [edit] ---------------------------------- #
 from pybo.models import Question, Answer
 # ---------------------------------------------------------------------------- #
@@ -15,3 +14,5 @@ class QuestionForm(forms.ModelForm):
 # ---------------------------------------------------------------------------- #
         # widget 항목 삭제
 # ---------------------------------------------------------------------------- #
+class AnswerForm(forms.ModelForm):
+    class Meta
