@@ -15,4 +15,5 @@ class QuestionForm(forms.ModelForm):
         # widget 항목 삭제
 # ---------------------------------------------------------------------------- #
 class AnswerForm(forms.ModelForm):
-    class Meta
+    class Meta:
+        model = Answer
