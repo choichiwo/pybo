@@ -10,7 +10,7 @@ from .models import Question
 from django.utils import timezone
 # ---------------------------------------------------------------------------- #
 # ---------------------------------- [edit] ---------------------------------- #
-from .forms import QuestionForm
+from .forms import QuestionForm, AnswerForm
 # ---------------------------------------------------------------------------- #
 def index(request):
     # ---------------------------------- [edit] ---------------------------------- #
